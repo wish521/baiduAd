@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.BaiduApplication" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BaiduApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <declare-styleable name="Custom_Round_Image_View">
+        <attr format="dimension" name="radius"/>
+        <attr format="dimension" name="left_top_radius"/>
+        <attr format="dimension" name="right_top_radius"/>
+        <attr format="dimension" name="right_bottom_radius"/>
+        <attr format="dimension" name="left_bottom_radius"/>
+    </declare-styleable>
+    <declare-styleable name="FullscreenAttrs">
+        <attr format="color" name="fullscreenBackgroundColor"/>
+        <attr format="color" name="fullscreenTextColor"/>
+    </declare-styleable>
+</resources>

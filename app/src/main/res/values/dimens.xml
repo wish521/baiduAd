@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_top">2dp</dimen>
+    <dimen name="tab_font_size">14sp</dimen>
+    <dimen name="title_font_size">15.5sp</dimen>
+    <dimen name="title_font_size1">16sp</dimen>
+    <dimen name="title_line_gap">5dp</dimen>
+    <dimen name="hide_margin">18dp</dimen>
+    <dimen name="show_margin">50dp</dimen>
+    <dimen name="corner_radius">14dp</dimen>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:roundImg="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:textSize="@dimen/title_font_size"
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/iv_right_pic"
+        android:lineSpacingExtra="@dimen/title_line_gap"
+        android:maxLines="2"
+        android:text="我最大的爱好就是读书我最大的爱好就是读书我最大的爱好就是读书我最大的爱好就是读书"
+        android:textColor="#313131">
+
+    </TextView>
+
+    <LinearLayout
+
+        android:layout_toLeftOf="@+id/iv_right_pic"
+        android:id="@+id/ll_second_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignBottom="@+id/iv_right_pic"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="13dp">
+            <TextView
+                android:id="@+id/tv_author"
+                android:textSize="10sp"
+                android:textColor="#bebebe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="人民日报">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_right_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="人民日报"
+                android:textColor="#bebebe"
+                android:textSize="10sp">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/iv_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/ic_close" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <com.baidu.baiduapplication.ui.theme.RoundAngleImageView
+        android:layout_alignParentTop="true"
+        android:id="@+id/iv_right_pic"
+        android:layout_width="130dp"
+        android:layout_height="85dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_close"
+        roundImg:radius="10dp" />
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/iv_right_pic"
+        android:background="#ececec">
+
+    </View>
+
+</RelativeLayout>
